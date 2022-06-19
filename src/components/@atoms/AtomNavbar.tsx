@@ -45,6 +45,7 @@ const AtomNavBar: FC<Props> = (props) => {
                 <span className="sr-only">Workflow</span>
                 <Image
                   className="rounded-xl w-auto h-auto"
+                  alt="XDDD"
                   src="https://media-exp2.licdn.com/dms/image/C4E03AQEPWWq5AfJaJg/profile-displayphoto-shrink_800_800/0/1652553874624?e=1660780800&v=beta&t=C-niMq0pATjNWjOnUk-Ps46OJESiWEYN-cdPDA-s27U"
                   width={80}
                   height={80}
