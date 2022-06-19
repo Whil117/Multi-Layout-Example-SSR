@@ -38,7 +38,7 @@ const AtomNavBar: FC<Props> = (props) => {
         </AtomText>
       </AtomWrapper>
       <div className="relative bg-white">
-        <div className="max-w-max mx-auto px-4 sm:px-6 max-h-40">
+        <div className=" mx-auto px-4 sm:px-6 max-h-40">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
@@ -127,6 +127,12 @@ const Options = [
     label: "Products",
     value: "option3",
     link: "/page3",
+  },
+  {
+    id: 4,
+    label: "Dashboard",
+    value: "option4",
+    link: "/dashboard",
   },
 ];
 

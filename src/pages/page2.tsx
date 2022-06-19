@@ -1,16 +1,13 @@
-import type { NextPage } from "next";
-import AtomFooter from "../components/@atoms/AtomFooter";
-import AtomNavBar from "../components/@atoms/AtomNavbar";
+import type { NextPageFC } from "next";
 import AtomText from "../components/@atoms/AtomText";
 
-const Page2: NextPage = () => {
+const Page2: NextPageFC = () => {
   return (
     <>
-      <AtomNavBar backgroundColor="#4ba0d6" />
       <AtomText>THIS IS MY ABOUT PAGE</AtomText>
-      <AtomFooter />
     </>
   );
 };
-
+Page2.layout = "public";
+Page2.colors = "#4ba0d6";
 export default Page2;

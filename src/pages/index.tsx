@@ -1,17 +1,16 @@
 /* eslint-disable jsx-a11y/alt-text */
-import type { NextPage } from "next";
-import AtomFooter from "../components/@atoms/AtomFooter";
-import AtomNavBar from "../components/@atoms/AtomNavbar";
+import type { NextPageFC } from "next";
 import AtomText from "../components/@atoms/AtomText";
+import AtomWrapper from "../components/@atoms/AtomWrapper";
 
-const Home: NextPage = () => {
+const Home: NextPageFC = () => {
   return (
-    <>
-      <AtomNavBar />
+    <AtomWrapper>
       <AtomText>THIS IS MY MAIN PAGE</AtomText>
-      <AtomFooter />
-    </>
+    </AtomWrapper>
   );
 };
+Home.layout = "public";
+// Home.colors = "yellow";
 
 export default Home;
